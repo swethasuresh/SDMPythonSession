@@ -7,4 +7,4 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calculator.add(1, 5), 6)
         self.assertEqual(calculator.sub(1, 5), -4)
         self.assertEqual(calculator.mul(2, 4), 8)
-        self.assertEqual(calculator.div(1, 5), 3)
+        self.assertEqual(calculator.div(1, 5), 0.2)
